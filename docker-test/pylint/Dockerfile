@@ -1,6 +1,6 @@
 FROM python:3
 
-COPY .pylintrc /
+COPY docker-test/pylint/.pylintrc /
 
 RUN pip3 install pylint 
 RUN pip3 install pylint-json2html
